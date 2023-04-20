@@ -1,7 +1,3 @@
-export type CountryCode = "AU" | "NZ" | "IN";
-export type LocaleCode = "en-AU" | "en-NZ" | "en-IN";
-export type PhoneCode = "+61" | "+64" | "+91";
-
 export enum AuthType {
   Email = "password",
   Phone = "phone",
@@ -29,24 +25,6 @@ export enum CrudType {
   Delete = 40
 }
 
-export enum PageType {
-  Step1 = 0,
-  Step2,
-  Step3,
-  Step4,
-  Step5,
-  Default
-}
-
-export enum AccordionType {
-  Step1 = "10",
-  Step2 = "20",
-  Step3 = "30",
-  Step4 = "40",
-  Step5 = "50",
-  Default = "100"
-}
-
 export enum NavType {
   RootUrl = "/",
   PubDealsUrl = "/shop",
@@ -63,18 +41,4 @@ export enum NavType {
   SellerTradesUrl = "/trades",
   SellerDealsUrl = "/deals",
   NotFoundUrl = "/404"
-}
-
-export enum ServiceType {
-  SignInUrl = "/signin",
-  ProfileUrl = "/profile",
-  UserUrl = "/user",
-  UsersUrl = "/users",
-  CategoriesUrl = "/categories",
-  LocationsUrl = "/locations",
-  RegionsUrl = "/regions",
-  TradesUrl = "/trades",
-  TradeUrl = "/trade",
-  DealsUrl = "/deals",
-  DealUrl = "/deal"
 }
